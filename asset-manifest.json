@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/react-portfolio-template/static/css/main.581137d9.css",
+    "main.css": "/react-portfolio-template/static/css/main.6aaf19aa.css",
     "main.js": "/react-portfolio-template/static/js/main.d558c565.js",
     "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
     "static/media/Cifar100.png": "/react-portfolio-template/static/media/Cifar100.a3b20a9da0cfe8c71303.png",
     "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/cyclegan.png": "/react-portfolio-template/static/media/cyclegan.7f35ec8901a78274f3ab.png",
-    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/yolonas.png": "/react-portfolio-template/static/media/yolonas.fc35b9cf79450da07c8a.png",
     "static/media/sequence_models.png": "/react-portfolio-template/static/media/sequence_models.17300f396b6d0f100d18.png",
     "static/media/crewai_newsletter.png": "/react-portfolio-template/static/media/crewai_newsletter.b8a8026d904b7f3cb16a.png",
@@ -17,12 +16,12 @@
     "static/media/q_learning.png": "/react-portfolio-template/static/media/q_learning.824d2b7b0de05eee5cca.png",
     "static/media/Photograph.jpg": "/react-portfolio-template/static/media/Photograph.c5476bbfa1f9f88c03fd.jpg",
     "index.html": "/react-portfolio-template/index.html",
-    "main.581137d9.css.map": "/react-portfolio-template/static/css/main.581137d9.css.map",
+    "main.6aaf19aa.css.map": "/react-portfolio-template/static/css/main.6aaf19aa.css.map",
     "main.d558c565.js.map": "/react-portfolio-template/static/js/main.d558c565.js.map",
     "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.581137d9.css",
+    "static/css/main.6aaf19aa.css",
     "static/js/main.d558c565.js"
   ]
 }
