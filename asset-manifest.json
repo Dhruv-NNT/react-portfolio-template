@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.838acd16.css",
-    "main.js": "/portfolio/static/js/main.e2f1546e.js",
-    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/Cifar100.png": "/portfolio/static/media/Cifar100.a3b20a9da0cfe8c71303.png",
-    "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/cyclegan.png": "/portfolio/static/media/cyclegan.7f35ec8901a78274f3ab.png",
-    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/yolonas.png": "/portfolio/static/media/yolonas.fc35b9cf79450da07c8a.png",
-    "static/media/sequence_models.png": "/portfolio/static/media/sequence_models.17300f396b6d0f100d18.png",
-    "static/media/crewai_newsletter.png": "/portfolio/static/media/crewai_newsletter.b8a8026d904b7f3cb16a.png",
-    "static/media/chat_with_pdfs.png": "/portfolio/static/media/chat_with_pdfs.c8f4ff828dc868c6f461.png",
-    "static/media/SGID.png": "/portfolio/static/media/SGID.4bc8dbd2d1fa8d9f791b.png",
-    "static/media/machine_translation.png": "/portfolio/static/media/machine_translation.83865444c7f21b99a01a.png",
-    "static/media/stock_market_analysis_peft.png": "/portfolio/static/media/stock_market_analysis_peft.08e87f4788f11610f8e2.png",
-    "static/media/q_learning.png": "/portfolio/static/media/q_learning.824d2b7b0de05eee5cca.png",
-    "static/media/Photograph.jpg": "/portfolio/static/media/Photograph.c5476bbfa1f9f88c03fd.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.838acd16.css.map": "/portfolio/static/css/main.838acd16.css.map",
-    "main.e2f1546e.js.map": "/portfolio/static/js/main.e2f1546e.js.map",
-    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.css": "/react-portfolio-template/static/css/main.581137d9.css",
+    "main.js": "/react-portfolio-template/static/js/main.d0bdf637.js",
+    "static/js/453.9415623e.chunk.js": "/react-portfolio-template/static/js/453.9415623e.chunk.js",
+    "static/media/Cifar100.png": "/react-portfolio-template/static/media/Cifar100.a3b20a9da0cfe8c71303.png",
+    "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/cyclegan.png": "/react-portfolio-template/static/media/cyclegan.7f35ec8901a78274f3ab.png",
+    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/yolonas.png": "/react-portfolio-template/static/media/yolonas.fc35b9cf79450da07c8a.png",
+    "static/media/sequence_models.png": "/react-portfolio-template/static/media/sequence_models.17300f396b6d0f100d18.png",
+    "static/media/crewai_newsletter.png": "/react-portfolio-template/static/media/crewai_newsletter.b8a8026d904b7f3cb16a.png",
+    "static/media/chat_with_pdfs.png": "/react-portfolio-template/static/media/chat_with_pdfs.c8f4ff828dc868c6f461.png",
+    "static/media/SGID.png": "/react-portfolio-template/static/media/SGID.4bc8dbd2d1fa8d9f791b.png",
+    "static/media/machine_translation.png": "/react-portfolio-template/static/media/machine_translation.83865444c7f21b99a01a.png",
+    "static/media/stock_market_analysis_peft.png": "/react-portfolio-template/static/media/stock_market_analysis_peft.08e87f4788f11610f8e2.png",
+    "static/media/q_learning.png": "/react-portfolio-template/static/media/q_learning.824d2b7b0de05eee5cca.png",
+    "static/media/Photograph.jpg": "/react-portfolio-template/static/media/Photograph.c5476bbfa1f9f88c03fd.jpg",
+    "index.html": "/react-portfolio-template/index.html",
+    "main.581137d9.css.map": "/react-portfolio-template/static/css/main.581137d9.css.map",
+    "main.d0bdf637.js.map": "/react-portfolio-template/static/js/main.d0bdf637.js.map",
+    "453.9415623e.chunk.js.map": "/react-portfolio-template/static/js/453.9415623e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.838acd16.css",
-    "static/js/main.e2f1546e.js"
+    "static/css/main.581137d9.css",
+    "static/js/main.d0bdf637.js"
   ]
 }
