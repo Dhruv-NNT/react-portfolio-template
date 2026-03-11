@@ -12,19 +12,35 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
+          {/* Air Traffic Management Research Institute (ATMRI) */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="May 2025 - May 2026"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Research Associate</h3>
+            <h4 className="vertical-timeline-element-subtitle">Air Traffic Management Research Institute (ATMRI), Singapore</h4>
+            <p>
+              I develop and experiment with AI systems that improve multi-accent air traffic control speech recognition and information extraction, using deep learning, large language models, and knowledge graphs to support safer and more reliable aviation operations.
+            </p>
+          </VerticalTimelineElement>
+
           {/* Stealth Startup */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Dec 2024 - Present"
+            date="Dec 2024 - Feb 2025"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">AI Researcher</h3>
-            <h4 className="vertical-timeline-element-subtitle">Stealth Startup, Singapore</h4>
+            <h4 className="vertical-timeline-element-subtitle">Pursoo (Startup), Singapore</h4>
             <p>
-              Developing an AI-powered candidate recommendation platform with graph database similarity search, PII handling via Presidio, and advanced resume formatting using LLMs.
+              Developed an AI-powered candidate recommendation platform with graph database similarity search, PII handling via Presidio, and advanced resume formatting using LLMs.
             </p>
           </VerticalTimelineElement>
 

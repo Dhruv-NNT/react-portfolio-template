@@ -18,11 +18,7 @@ function App() {
     const [mode, setMode] = useState<string>('light');
 
     const handleModeChange = () => {
-        if (mode === 'light') {
-            setMode('light');
-        } else {
-            setMode('light');
-        }
+        setMode(mode === 'light' ? 'dark' : 'light');
     }
 
     useEffect(() => {

@@ -18,7 +18,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/aradhya-dhruv/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Aradhya Dhruv</h1>
-          <p>MSc. AI Student at NTU | Data Scientist</p>
+          <p>Research Associate at ATMRI (NTU) | MSc Artificial Intelligence | AI Researcher in Aviation Systems, Speech AI & LLM-driven Decision Support | Former Trainee Decision Scientist at Mu Sigma | Enabled Data-driven strategy for a leading Fortune 500 company</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Dhruv-NNT" target="_blank" rel="noreferrer"><GitHubIcon/></a>

@@ -9,6 +9,9 @@ import yolonas from '../assets/images/yolonas.png';
 import chat_with_pdfs from '../assets/images/chat_with_pdfs.png';
 import stock_market_analysis_peft from '../assets/images/stock_market_analysis_peft.png';
 import q_learning from '../assets/images/q_learning.png';
+import mock02 from '../assets/images/mock02.png';
+import llm_scenario_generation from '../assets/images/LLM driven scenario generation.png';
+import llm_rl_architecture from '../assets/images/llm and rl architecture.png';
 
 import '../assets/styles/Project.scss';
 
@@ -17,9 +20,34 @@ function Project() {
         <div className="projects-container" id="projects">
             <h1>Personal Projects</h1>
             <div className="projects-grid">
+                {/* LLM-powered air traffic scenario generation */}
+                <div className="project">
+                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
+                        <img src={llm_scenario_generation} className="zoom" alt="LLM-driven scenario generation" width="100%" />
+                    </a>
+                    <h2>LLM-powered Air Traffic Scenario Generation</h2>
+                    <p>
+                        Built a chat-based framework that uses LLMs plus Graph RAG on Neo4j to ingest ATC scenario PDFs and generate new,
+                        diverse scenarios. The system injects controlled conflict cases, stores them back in the graph for validation and reuse,
+                        and supports structured JSON and XML exports for simulation workflows.
+                    </p>
+                </div>
+
+                {/* LLM-augmented RL for aviation decision support */}
+                <div className="project">
+                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
+                        <img src={llm_rl_architecture} className="zoom" alt="LLM and RL architecture" width="100%" />
+                    </a>
+                    <h2>LLM-augmented RL for Aviation Decision Support</h2>
+                    <p>
+                        Developed an LLM-guided PPO framework for aircraft conflict resolution and aviation decision support. Studied how LLM
+                        guidance affects policy stability and reward convergence under complex operational dynamics.
+                    </p>
+                </div>
+
                 {/* SGID - Semantic Guided Generative Image Augmentation */}
                 <div className="project">
-                    <a href="#" target="_blank" rel="noreferrer">
+                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
                         <img src={SGID} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Semantic Guided Image Augmentation (SGID)</h2>
@@ -32,7 +60,7 @@ function Project() {
 
                 {/* Image Classification on CIFAR-100 Dataset */}
                 <div className="project">
-                    <a href="#" target="_blank" rel="noreferrer">
+                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
                         <img src={Cifar100} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Image Classification on CIFAR-100</h2>
@@ -45,7 +73,7 @@ function Project() {
 
                 {/* Sentiment Analysis Using Sequence Models */}
                 <div className="project">
-                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Sentiment%20Analysis%20with%20Sequence%20Models/readme.md" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Sentiment%20Analysis%20with%20Sequence%20Models/readme.md" target="_blank" rel="noreferrer" className="project-image">
                         <img src={sequence_models} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Sentiment Analysis with Sequence Models</h2>
@@ -58,7 +86,7 @@ function Project() {
 
                 {/* Seq-to-Seq Models for Machine Translation */}
                 <div className="project">
-                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Seq-to-Seq%20Models%20for%20Machine%20Translation/readme.md" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Seq-to-Seq%20Models%20for%20Machine%20Translation/readme.md" target="_blank" rel="noreferrer" className="project-image">
                         <img src={machine_translation} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Seq-to-Seq Models for Machine Translation</h2>
@@ -71,7 +99,7 @@ function Project() {
 
                 {/* Newsletter Generator App Using CrewAI */}
                 <div className="project">
-                    <a href="#" target="_blank" rel="noreferrer">
+                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
                         <img src={crewai_newsletter} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Newsletter Generator with CrewAI</h2>
@@ -84,7 +112,7 @@ function Project() {
 
                 {/* Image-Image Translation Using CycleGANs */}
                 <div className="project">
-                    <a href="https://github.com/Dhruv-NNT/Computer-Vision-Projects/blob/main/Image-Image-Translation%20Using%20CycleGANs/README.md" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Dhruv-NNT/Computer-Vision-Projects/blob/main/Image-Image-Translation%20Using%20CycleGANs/README.md" target="_blank" rel="noreferrer" className="project-image">
                         <img src={cyclegan} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Image-to-Image Translation with CycleGANs</h2>
@@ -97,7 +125,7 @@ function Project() {
 
                 {/* Object Detection Using YOLO-NAS */}
                 <div className="project">
-                    <a href="https://github.com/Dhruv-NNT/Computer-Vision-Projects/blob/main/Object%20Detection%20Using%20YOLO-NAS/README.md" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Dhruv-NNT/Computer-Vision-Projects/blob/main/Object%20Detection%20Using%20YOLO-NAS/README.md" target="_blank" rel="noreferrer" className="project-image">
                         <img src={yolonas} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Object Detection with YOLO-NAS</h2>
@@ -109,7 +137,7 @@ function Project() {
 
                 {/* Chat with PDFs - LangChain and RAG */}
                 <div className="project">
-                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Chat%20with%20PDFs%20-%20Using%20LangChain%20and%20RAG/readme.md" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Chat%20with%20PDFs%20-%20Using%20LangChain%20and%20RAG/readme.md" target="_blank" rel="noreferrer" className="project-image">
                         <img src={chat_with_pdfs} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Chat with PDFs Using LangChain</h2>
@@ -121,7 +149,7 @@ function Project() {
 
                 {/* Stock Market Analysis with PEFT and News Summarization */}
                 <div className="project">
-                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Stock%20Market%20Assistant/README.md" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Dhruv-NNT/Generative-AI-and-NLP-Projects/blob/main/Stock%20Market%20Assistant/README.md" target="_blank" rel="noreferrer" className="project-image">
                         <img src={stock_market_analysis_peft} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Stock Market Analysis with PEFT</h2>
@@ -133,7 +161,7 @@ function Project() {
 
                 {/* Q-Learning for Cliff Box Pushing Task */}
                 <div className="project">
-                    <a href="#" target="_blank" rel="noreferrer">
+                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
                         <img src={q_learning} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <h2>Q-Learning for Cliff Box Pushing Task</h2>
