@@ -22,7 +22,7 @@ function Project() {
             <div className="projects-grid">
                 {/* LLM-powered air traffic scenario generation */}
                 <div className="project">
-                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
+                    <a href="https://github.com/Dhruv-NNT/Flight-Simulation.git" target="_blank" rel="noreferrer" className="project-image">
                         <img src={llm_scenario_generation} className="zoom" alt="LLM-driven scenario generation" width="100%" />
                     </a>
                     <h2>LLM-powered Air Traffic Scenario Generation</h2>
@@ -35,7 +35,7 @@ function Project() {
 
                 {/* LLM-augmented RL for aviation decision support */}
                 <div className="project">
-                    <a href="#" target="_blank" rel="noreferrer" className="project-image">
+                    <a href="https://github.com/Dhruv-NNT/LLM-Enhanced-DRL-.git" target="_blank" rel="noreferrer" className="project-image">
                         <img src={llm_rl_architecture} className="zoom" alt="LLM and RL architecture" width="100%" />
                     </a>
                     <h2>LLM-augmented RL for Aviation Decision Support</h2>
